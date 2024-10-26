@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{background-image:linear-gradient(rgb(6, 6, 6), rgb(172, 172, 168));
+color: azure;}
