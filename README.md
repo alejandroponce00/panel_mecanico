@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚗 Panel de Mecánicos - Administración de Turnos 🛠️
 
-## Getting Started
+Bienvenidos al **Panel de Mecánicos** de nuestro sistema de administración de turnos para un taller mecánico. Este es el segundo frontend de la aplicación, diseñado exclusivamente para que los mecánicos puedan ver los autos que necesitan ser reparados y marcar los que ya están listos ✅.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-````
+## 📝 Descripción del Proyecto
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Este proyecto es un panel simple y funcional que permite a los mecánicos del taller:
+1. Ver una lista de los autos que tienen pendiente de reparación.
+2. Marcar con un ✅ los autos que ya han sido reparados.
+3. Mantener una organización eficiente de los turnos de trabajo.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+> **Nota:** Este panel está diseñado para su uso interno en el taller y se conecta al backend principal de la aplicación de "Turnos taller".
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🚀 Tecnologías Utilizadas
 
-To learn more about Next.js, take a look at the following resources:
+- **Frontend Framework:** React.js / Next.js (menciona cuál estás utilizando)
+- **Estilos:** Tailwind CSS
+- **Backend:** API RESTful conectada a la base de datos principal del sistema
+- **Autenticación:** Sistema de login sencillo para cada mecánico
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Funcionalidades
 
-## Deploy on Vercel
+- **Listado de Autos Pendientes:** Visualización rápida de todos los autos que están esperando ser reparados.
+- **Marcar como Reparado:** Al completar la reparación, el mecánico puede marcar el auto con un check (✅), actualizando el estado en tiempo real.
+- **Autenticación Básica:** Cada mecánico puede loguearse con su cuenta para acceder al panel.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📦 Instalación
+
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/alejandroponce00/panel_mecanico.git
